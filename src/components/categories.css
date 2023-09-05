@@ -1,0 +1,27 @@
+.categoriesContainer {
+  margin-top: 140px;
+}
+.categoriesTitle {
+  font: 700 32px "Roboto", sans-serif;
+  line-height: 36.8px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+.categoriesList {
+  padding-right: 120px;
+}
+.categoriesList li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.categoriesList li img {
+  cursor: pointer;
+}
+.categoriesList li a {
+  font: 400 16px "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 18.4px;
+  margin-top: 18px;
+}

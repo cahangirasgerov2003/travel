@@ -1,0 +1,17 @@
+.vacationContext {
+  margin-top: 56px;
+}
+.vacationContext p {
+  font: 700 32px "Roboto", sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.vacationContainer {
+  max-width: 1366px;
+}
+.vacationCard {
+  padding: 0;
+}
+.vacationCard img {
+  padding-left: 0;
+}

@@ -1,0 +1,17 @@
+.propertyContext {
+  margin: 50px 0;
+}
+.propertyContext p {
+  font: 700 32px "Roboto", sans-serif;
+  color: #000;
+  margin-bottom: 20px;
+}
+.propertyContainer {
+  max-width: 1366px;
+}
+.propertyCard {
+  padding: 0;
+}
+.propertyCard img {
+  padding-left: 0;
+}

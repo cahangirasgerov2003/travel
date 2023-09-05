@@ -1,0 +1,10 @@
+.homeComponent {
+  background-image: url(../../public/images/mountainBg.svg);
+  background-repeat: no-repeat;
+  max-width: 1366px;
+  margin: auto;
+}
+
+.mainContainer {
+  padding-left: 120px;
+}

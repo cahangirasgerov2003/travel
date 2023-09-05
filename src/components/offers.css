@@ -1,0 +1,41 @@
+.offersContainer {
+  max-width: 1366px;
+}
+.offersContext {
+  margin-top: 50px;
+}
+.offersTitle {
+  font: 700 32px "Roboto", sans-serif;
+  line-height: 36.8px;
+}
+
+.columnContext {
+  border-radius: 16px;
+  padding: 24px 16px;
+  gap: 24px;
+  box-shadow: 0px 4px 16px 0px #9e9e9e40;
+}
+
+.halfColumn {
+  padding: 0 12px 0 0;
+}
+
+.desc1,
+.desc3 {
+  font: 400 16px "Lato", sans-serif;
+  line-height: 20.43px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.desc2 {
+  font: 700 24px "Lato", sans-serif;
+  line-height: 30.65px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.offersButton {
+  border-radius: 32px;
+  padding: 16px 32px;
+  background-color: #2659c3;
+  color: #fff;
+  border: none;
+}
