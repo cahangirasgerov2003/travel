@@ -6,6 +6,7 @@ import PapularBeach from "./PapularBeach";
 import Recently from "./Recently";
 import SearchBar from "./SearchBar";
 import TitlePage from "./TitlePage";
+import HoneyMoon from "./HoneyMoon";
 import "./mountains.css";
 import React from "react";
 
@@ -22,6 +23,7 @@ const Mountains = () => {
         <PapularBeach />
         <Recently />
         <InclusivePackages />
+        <HoneyMoon />
       </div>
       <div className="mountainFooterContainer">
         <Footer />
