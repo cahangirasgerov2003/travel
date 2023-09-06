@@ -1,6 +1,9 @@
 import Categories from "./Categories";
 import Footer from "./Footer";
+// import InclusivePackages from "./InclusivePackages";
 import Navbar from "./Navbar";
+import PapularBeach from "./PapularBeach";
+import SearchBar from "./SearchBar";
 import TitlePage from "./TitlePage";
 import "./mountains.css";
 import React from "react";
@@ -11,7 +14,12 @@ const Mountains = () => {
       <Navbar />
       <div className="mountainMainContainer">
         <TitlePage />
-        <Categories />
+        <SearchBar />
+        <div style={{ marginTop: 40 + "px", marginBottom: 80 + "px" }}>
+          <Categories />
+        </div>
+        <PapularBeach />
+        {/* <InclusivePackages /> */}
       </div>
       <div className="mountainFooterContainer">
         <Footer />

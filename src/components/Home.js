@@ -17,7 +17,9 @@ const Home = () => {
       <Navbar />
       <div className="mainContainer">
         <TitlePage />
-        <Categories />
+        <div style={{ marginTop: 140 + "px" }}>
+          <Categories />
+        </div>
         <Vacation />
         <Offers />
         <Browse />
