@@ -1,8 +1,9 @@
 import Categories from "./Categories";
 import Footer from "./Footer";
-// import InclusivePackages from "./InclusivePackages";
+import InclusivePackages from "./InclusivePackages";
 import Navbar from "./Navbar";
 import PapularBeach from "./PapularBeach";
+import Recently from "./Recently";
 import SearchBar from "./SearchBar";
 import TitlePage from "./TitlePage";
 import "./mountains.css";
@@ -19,7 +20,8 @@ const Mountains = () => {
           <Categories />
         </div>
         <PapularBeach />
-        {/* <InclusivePackages /> */}
+        <Recently />
+        <InclusivePackages />
       </div>
       <div className="mountainFooterContainer">
         <Footer />

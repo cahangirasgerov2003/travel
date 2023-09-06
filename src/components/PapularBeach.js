@@ -1,3 +1,4 @@
+import MountainCard from "./MountainCard";
 import "./papularBeach.css";
 import React from "react";
 
@@ -15,46 +16,87 @@ const PapularBeach = () => {
                 style={{ borderRadius: 5 + "px" }}
               ></img>
               <div>
-                <div>
-                  <p className="desc1Papular">Swiss Apls</p>
-                  <div>
-                    <img alt="star" src=""></img>
-                    <p>4.7</p>
+                <div className="d-flex justify-content-between desc1Papular mb-2">
+                  <p>Swiss Apls</p>
+                  <div className="d-flex align-items-center">
+                    <img
+                      alt="star"
+                      src={process.env.PUBLIC_URL + "./images/star.svg"}
+                      style={{ width: 24 + "px", height: 24 + "px" }}
+                    ></img>
+                    <p className="ms-1">4.7</p>
                   </div>
                 </div>
-                <div>
-                  <p className="desc2Papular">3Days 4 Nights</p>
-                </div>
-                <div>
-                  <div>
-                    <img alt="Flights" src=""></img>
-                    <p className="desc3Papular">2 Flights</p>
+                <MountainCard />
+              </div>
+            </div>
+          </div>
+          <div className="col-3 halfColumnPapular">
+            <div className="columnContextPapular d-flex flex-column">
+              <img
+                alt="Hallstatt"
+                src={process.env.PUBLIC_URL + "./images/hallStat.svg"}
+                style={{ borderRadius: 5 + "px" }}
+              ></img>
+              <div>
+                <div className="d-flex justify-content-between desc1Papular mb-2">
+                  <p>Hallstatt</p>
+                  <div className="d-flex align-items-center">
+                    <img
+                      alt="star"
+                      src={process.env.PUBLIC_URL + "./images/star.svg"}
+                      style={{ width: 24 + "px", height: 24 + "px" }}
+                    ></img>
+                    <p className="ms-1">4.9</p>
                   </div>
-                  <div>
-                    <img alt="Hotel" src=""></img>
-                    <p className="desc3Papular">1 Hotel</p>
-                  </div>
-                  <div>
-                    <img alt="Transfers" src=""></img>
-                    <p className="desc3Papular">2 Transfers</p>
-                  </div>
-                  <div>
-                    <img alt="Activities" src=""></img>
-                    <p className="desc3Papular">4 Activities</p>
+                </div>
+                <MountainCard />
+              </div>
+            </div>
+          </div>
+          <div className="col-3 halfColumnPapular">
+            <div className="columnContextPapular d-flex flex-column">
+              <img
+                alt="Faroe Island"
+                src={process.env.PUBLIC_URL + "./images/faroe.svg"}
+                style={{ borderRadius: 5 + "px" }}
+              ></img>
+              <div>
+                <div className="d-flex justify-content-between desc1Papular mb-2">
+                  <p>Faroe Island</p>
+                  <div className="d-flex align-items-center">
+                    <img
+                      alt="star"
+                      src={process.env.PUBLIC_URL + "./images/star.svg"}
+                      style={{ width: 24 + "px", height: 24 + "px" }}
+                    ></img>
+                    <p className="ms-1">4.5</p>
                   </div>
                 </div>
-                <div>
-                  <ul>
-                    <li>Tour combo with return airport transfer</li>
-                    <li>City Tour</li>
-                    <li>Curious Corner</li>
-                  </ul>
+                <MountainCard />
+              </div>
+            </div>
+          </div>
+          <div className="col-3 halfColumnPapular">
+            <div className="columnContextPapular d-flex flex-column">
+              <img
+                alt="Innsbruck"
+                src={process.env.PUBLIC_URL + "./images/innsbruck.svg"}
+                style={{ borderRadius: 5 + "px" }}
+              ></img>
+              <div>
+                <div className="d-flex justify-content-between desc1Papular mb-2">
+                  <p>Innsbruck</p>
+                  <div className="d-flex align-items-center">
+                    <img
+                      alt="star"
+                      src={process.env.PUBLIC_URL + "./images/star.svg"}
+                      style={{ width: 24 + "px", height: 24 + "px" }}
+                    ></img>
+                    <p className="ms-1">4.2</p>
+                  </div>
                 </div>
-                <div>
-                  <p className="desc4Papular">₹88,952</p>
-                  <p className="desc5Papular">₹88,952</p>
-                  <p className="desc6Papular">Per person</p>
-                </div>
+                <MountainCard />
               </div>
             </div>
           </div>

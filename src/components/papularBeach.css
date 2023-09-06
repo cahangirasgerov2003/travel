@@ -2,7 +2,7 @@
   max-width: 1366px;
 }
 .papularContext {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .papularTitle {
   font: 700 32px "Roboto", sans-serif;
@@ -18,6 +18,10 @@
   background-color: white;
 }
 
+.columnContextPapular p {
+  margin-bottom: 0;
+}
+
 .halfColumnPapular {
   padding: 0 12px 0 0;
 }
@@ -25,11 +29,5 @@
 .desc1Papular {
   font: 400 24px "Lato", sans-serif;
   line-height: 30.65px;
-  color: #000000;
-}
-.desc2Papular,
-.desc3Papular {
-  font: 400 16px "Lato", sans-serif;
-  line-height: 20.43px;
-  color: rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
 }

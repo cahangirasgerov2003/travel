@@ -1,0 +1,38 @@
+.desc2Papular,
+.desc4Papular ul li {
+  font: 400 16px "Lato", sans-serif;
+  line-height: 20.43px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.desc3Papular {
+  font: 400 12px "Lato", sans-serif;
+  line-height: 15.32px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 8px;
+}
+.desc4Papular ul {
+  font: 400 12px "Lato", sans-serif;
+  list-style: disc;
+}
+.desc4Papular ul li {
+  margin-bottom: 6px;
+}
+.desc4Papular {
+  margin: 15px 0;
+}
+.desc5Papular {
+  text-decoration: line-through;
+  color: black;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+}
+.desc6Papular {
+  font: 700 24px "Lato", sans-serif;
+}
+.desc7Papular {
+  font: 400 12px "Lato", sans-serif;
+  color: black;
+  opacity: 0.5;
+  margin-top: auto;
+}
