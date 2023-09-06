@@ -1,0 +1,42 @@
+.trxContainer {
+  background-color: #141414;
+  max-width: 1366px;
+}
+.trxRow {
+  padding: 30px 100px;
+}
+.listsInfo li a,
+.helmetkod {
+  font: 400 13px "Lato", sans-serif;
+  color: #808080;
+  line-height: 16.6px;
+}
+.brandName {
+  font: 700 32px "Roboto", sans-serif;
+  color: #ffffff;
+  line-height: 36.8px;
+}
+.policy {
+  font: 300 11px "Lato", sans-serif;
+  color: #808080;
+  line-height: 14.05px;
+}
+.helmetkod {
+  padding: 10px 15px 10px 15px;
+  border: 1px solid #808080;
+  margin-top: 16px;
+  background-color: transparent;
+}
+
+.sosialMedia {
+  padding-top: 25px;
+  padding-right: 110px;
+}
+
+.sosialMedia img {
+  cursor: pointer;
+}
+
+.sosialMedia img:not(:last-child) {
+  margin-right: 18px;
+}

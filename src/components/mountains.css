@@ -1,0 +1,13 @@
+.mountainComponent {
+  background-image: url(../../public/images/mountainBg.svg);
+  background-repeat: no-repeat;
+  max-width: 1366px;
+  margin: auto;
+}
+
+.mountainMainContainer {
+  padding-left: 120px;
+}
+.mountainFooterContainer {
+  max-width: 1366px;
+}

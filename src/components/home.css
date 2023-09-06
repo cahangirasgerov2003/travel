@@ -8,3 +8,6 @@
 .mainContainer {
   padding-left: 120px;
 }
+.footerContainer {
+  max-width: 1366px;
+}

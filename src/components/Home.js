@@ -7,6 +7,9 @@ import Vacation from "./Vacation";
 import Offers from "./Offers";
 import Browse from "./Browse";
 import TravelExpert from "./TravelExpert";
+import Community from "./Community";
+import FooterTop from "./FooterTop";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -19,6 +22,11 @@ const Home = () => {
         <Offers />
         <Browse />
         <TravelExpert />
+        <Community />
+      </div>
+      <div className="footerContainer">
+        <FooterTop />
+        <Footer />
       </div>
     </div>
   );

@@ -1,0 +1,82 @@
+.footerTopBg {
+  background-image: url(../../public/images/footerTopBG.svg);
+  background-repeat: no-repeat;
+  padding-top: 75px;
+}
+.photoContext {
+  margin-left: 100px;
+  margin-right: 10px;
+}
+.connectionContext {
+  margin-right: 100px;
+}
+.footerTitle {
+  font: 700 48px "Roboto", sans-serif;
+  line-height: 55.2px;
+  color: white;
+  margin-bottom: 20px;
+}
+.footerDesc {
+  font: 400 24px "Roboto", sans-serif;
+  line-height: 27.6px;
+  color: white;
+  margin-bottom: 30px;
+}
+.buttonMobile,
+.buttonEmail {
+  padding: 8px 16px;
+  border-radius: 16px;
+  background-color: #ffffff66;
+  color: white;
+  font: 400 20px "Roboto", sans-serif;
+  border: none;
+}
+.buttonEmail {
+  background-color: transparent;
+  margin-left: 20px;
+}
+.phoneNumber {
+  color: white;
+  font: 400 14px "Roboto", sans-serif;
+}
+.phoneInputText {
+  padding: 8px 16px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: space-between;
+}
+.phoneInputText input {
+  color: white;
+  opacity: 0.7;
+  font: 400 16px "Roboto", sans-serif;
+  background-color: transparent;
+  border: none;
+}
+.phoneInputText input::placeholder {
+  color: white;
+  opacity: 0.7;
+  font: 400 16px "Roboto", sans-serif;
+}
+
+.phoneInputText button {
+  padding: 12px 80px;
+  border-radius: 32px;
+  color: #2659c3;
+  font: 700 16px "Roboto", sans-serif;
+  border: none;
+  gap: 8px;
+}
+
+.orContext p {
+  color: white;
+  opacity: 0.2;
+}
+.orContext h4 {
+  font: 400 16px "Roboto", sans-serif;
+  color: white;
+}
+
+.gPlayAppStore img {
+  cursor: pointer;
+}
