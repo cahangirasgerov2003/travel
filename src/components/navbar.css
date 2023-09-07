@@ -7,7 +7,14 @@
 .brandContext a {
   font: 700 32px "Roboto", sans-serif;
 }
-.homeLink {
+.brandContext a:hover {
+  color: rgba(255, 255, 255, 0.795);
+  transition: color 1s;
+}
+/* .homeLink {
+  border-bottom: 1px solid white;
+} */
+.active {
   border-bottom: 1px solid white;
 }
 .navList li:not(:last-child) {
@@ -17,4 +24,7 @@
   padding: 8px;
   font: 400 16px "Roboto", sans-serif;
   color: rgba(255, 255, 255, 0.7);
+}
+.navList li a:hover {
+  border-bottom: 1px solid white;
 }

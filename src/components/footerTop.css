@@ -35,6 +35,12 @@
   background-color: transparent;
   margin-left: 20px;
 }
+
+.buttonEmail:hover,
+.buttonEmail:hover {
+  background-color: #ffffff66;
+}
+
 .phoneNumber {
   color: white;
   font: 400 14px "Roboto", sans-serif;
@@ -66,6 +72,12 @@
   font: 700 16px "Roboto", sans-serif;
   border: none;
   gap: 8px;
+}
+
+.phoneInputText button:hover {
+  color: #030f29;
+  transform: scale(0.98, 0.98);
+  transition: all 1s;
 }
 
 .orContext p {

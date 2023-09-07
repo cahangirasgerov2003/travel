@@ -1,3 +1,4 @@
+import Health from "./Health";
 import MountainCard from "./MountainCard";
 // import "./inclusivePackages.css";
 import "./papularBeach.css";
@@ -14,11 +15,15 @@ const InclusivePackages = () => {
           <div className="row">
             <div className="col-3 halfColumnPapular">
               <div className="columnContextPapular d-flex flex-column">
-                <img
-                  alt="Val Di Funes"
-                  src={process.env.PUBLIC_URL + "./images/funes.svg"}
-                  style={{ borderRadius: 5 + "px" }}
-                ></img>
+                <div style={{ position: "relative" }}>
+                  <img
+                    alt="Val Di Funes"
+                    src={process.env.PUBLIC_URL + "./images/funes.svg"}
+                    className="w-100"
+                    style={{ borderRadius: 5 + "px" }}
+                  ></img>
+                  <Health />
+                </div>
                 <div>
                   <div className="d-flex justify-content-between desc1Papular mb-2">
                     <p>Val di Funes</p>
@@ -37,11 +42,15 @@ const InclusivePackages = () => {
             </div>
             <div className="col-3 halfColumnPapular">
               <div className="columnContextPapular d-flex flex-column">
-                <img
-                  alt="Ushuaia"
-                  src={process.env.PUBLIC_URL + "./images/ushuaia.svg"}
-                  style={{ borderRadius: 5 + "px" }}
-                ></img>
+                <div style={{ position: "relative" }}>
+                  <img
+                    alt="Ushuaia"
+                    src={process.env.PUBLIC_URL + "./images/ushuaia.svg"}
+                    className="w-100"
+                    style={{ borderRadius: 5 + "px" }}
+                  ></img>
+                  <Health />
+                </div>
                 <div>
                   <div className="d-flex justify-content-between desc1Papular mb-2">
                     <p>Ushuaia</p>
@@ -60,11 +69,15 @@ const InclusivePackages = () => {
             </div>
             <div className="col-3 halfColumnPapular">
               <div className="columnContextPapular d-flex flex-column">
-                <img
-                  alt="Berchtesgaden"
-                  src={process.env.PUBLIC_URL + "./images/berchtesgaden.svg"}
-                  style={{ borderRadius: 5 + "px" }}
-                ></img>
+                <div style={{ position: "relative" }}>
+                  <img
+                    alt="Berchtesgaden"
+                    src={process.env.PUBLIC_URL + "./images/berchtesgaden.svg"}
+                    className="w-100"
+                    style={{ borderRadius: 5 + "px" }}
+                  ></img>
+                  <Health />
+                </div>
                 <div>
                   <div className="d-flex justify-content-between desc1Papular mb-2">
                     <p>Berchtesgaden</p>
@@ -83,11 +96,15 @@ const InclusivePackages = () => {
             </div>
             <div className="col-3 halfColumnPapular">
               <div className="columnContextPapular d-flex flex-column">
-                <img
-                  alt="Fussen"
-                  src={process.env.PUBLIC_URL + "./images/fussen.svg"}
-                  style={{ borderRadius: 5 + "px" }}
-                ></img>
+                <div style={{ position: "relative" }}>
+                  <img
+                    alt="Fussen"
+                    src={process.env.PUBLIC_URL + "./images/fussen.svg"}
+                    className="w-100"
+                    style={{ borderRadius: 5 + "px" }}
+                  ></img>
+                  <Health />
+                </div>
                 <div>
                   <div className="d-flex justify-content-between desc1Papular mb-2">
                     <p>Fussen</p>

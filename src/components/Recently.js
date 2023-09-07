@@ -1,3 +1,4 @@
+import Health from "./Health";
 import MountainCard from "./MountainCard";
 import "./recently.css";
 import React from "react";
@@ -10,11 +11,15 @@ const Recently = () => {
         <div className="row">
           <div className="col-3 halfColumnRecently">
             <div className="columnContextRecently d-flex flex-column">
-              <img
-                alt="Hallstat"
-                src={process.env.PUBLIC_URL + "./images/hallStat.svg"}
-                style={{ borderRadius: 5 + "px" }}
-              ></img>
+              <div style={{ position: "relative" }}>
+                <img
+                  alt="Hallstat"
+                  src={process.env.PUBLIC_URL + "./images/hallStat.svg"}
+                  className="w-100"
+                  style={{ borderRadius: 5 + "px" }}
+                ></img>
+                <Health />
+              </div>
               <div>
                 <div className="d-flex justify-content-between desc1Recently mb-2">
                   <p>Hallstat</p>
@@ -33,11 +38,15 @@ const Recently = () => {
           </div>
           <div className="col-3 halfColumnRecently">
             <div className="columnContextRecently d-flex flex-column">
-              <img
-                alt="Innsbruck"
-                src={process.env.PUBLIC_URL + "./images/innsbruck.svg"}
-                style={{ borderRadius: 5 + "px" }}
-              ></img>
+              <div style={{ position: "relative" }}>
+                <img
+                  alt="Innsbruck"
+                  src={process.env.PUBLIC_URL + "./images/innsbruck.svg"}
+                  className="w-100"
+                  style={{ borderRadius: 5 + "px" }}
+                ></img>
+                <Health />
+              </div>
               <div>
                 <div className="d-flex justify-content-between desc1Recently mb-2">
                   <p>Hallstatt</p>

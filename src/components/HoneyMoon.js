@@ -2,6 +2,7 @@ import "./papularBeach.css";
 import "./honeyMoon.css";
 import React from "react";
 import MountainCard from "./MountainCard";
+import Health from "./Health";
 
 const honeyMoon = () => {
   return (
@@ -13,11 +14,15 @@ const honeyMoon = () => {
         <div className="row">
           <div className="col-3 halfColumnPapular">
             <div className="columnContextPapular d-flex flex-column">
-              <img
-                alt="Mauritius"
-                src={process.env.PUBLIC_URL + "./images/mauritius.svg"}
-                style={{ borderRadius: 5 + "px" }}
-              ></img>
+              <div style={{ position: "relative" }}>
+                <img
+                  alt="Mauritius"
+                  src={process.env.PUBLIC_URL + "./images/mauritius.svg"}
+                  className="w-100"
+                  style={{ borderRadius: 5 + "px" }}
+                ></img>
+                <Health />
+              </div>
               <div>
                 <div className="d-flex justify-content-between desc1Papular mb-2">
                   <p>Mauritius</p>
@@ -36,11 +41,15 @@ const honeyMoon = () => {
           </div>
           <div className="col-3 halfColumnPapular">
             <div className="columnContextPapular d-flex flex-column">
-              <img
-                alt="Havelock"
-                src={process.env.PUBLIC_URL + "./images/havelock.svg"}
-                style={{ borderRadius: 5 + "px" }}
-              ></img>
+              <div style={{ position: "relative" }}>
+                <img
+                  alt="Havelock"
+                  src={process.env.PUBLIC_URL + "./images/havelock.svg"}
+                  className="w-100"
+                  style={{ borderRadius: 5 + "px" }}
+                ></img>
+                <Health />
+              </div>
               <div>
                 <div className="d-flex justify-content-between desc1Papular mb-2">
                   <p>Havelock</p>
@@ -59,11 +68,15 @@ const honeyMoon = () => {
           </div>
           <div className="col-3 halfColumnPapular">
             <div className="columnContextPapular d-flex flex-column">
-              <img
-                alt="Whitsunday Islands"
-                src={process.env.PUBLIC_URL + "./images/whitsunday.svg"}
-                style={{ borderRadius: 5 + "px" }}
-              ></img>
+              <div style={{ position: "relative" }}>
+                <img
+                  alt="Whitsunday Islands"
+                  src={process.env.PUBLIC_URL + "./images/whitsunday.svg"}
+                  className="w-100"
+                  style={{ borderRadius: 5 + "px" }}
+                ></img>
+                <Health />
+              </div>
               <div>
                 <div className="d-flex justify-content-between desc1Papular mb-2">
                   <p>
@@ -85,11 +98,15 @@ const honeyMoon = () => {
           </div>
           <div className="col-3 halfColumnPapular">
             <div className="columnContextPapular d-flex flex-column">
-              <img
-                alt="Maldives"
-                src={process.env.PUBLIC_URL + "./images/maldives.svg"}
-                style={{ borderRadius: 5 + "px" }}
-              ></img>
+              <div style={{ position: "relative" }}>
+                <img
+                  alt="Maldives"
+                  src={process.env.PUBLIC_URL + "./images/maldives.svg"}
+                  className="w-100"
+                  style={{ borderRadius: 5 + "px" }}
+                ></img>
+                <Health />
+              </div>
               <div>
                 <div className="d-flex justify-content-between desc1Papular mb-2">
                   <p>Maldives</p>

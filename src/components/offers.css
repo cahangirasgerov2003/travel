@@ -39,3 +39,9 @@
   color: #fff;
   border: none;
 }
+
+.offersButton:hover {
+  background-color: #112f70;
+  transform: scale(0.98, 0.98);
+  transition: transform 1s, background-color 1s;
+}

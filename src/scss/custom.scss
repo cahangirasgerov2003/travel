@@ -5,6 +5,28 @@
     color: #000;
 }
 
+@keyframes cardEffect {
+    from{
+        transform: scale(1,1);
+        background-color:white;
+
+    }
+    to{
+      transform: scale(0.99, 0.99);
+      background-color: rgba(0, 0, 0, 0.096);
+    }
+}
+
+@keyframes card2Effect {
+    from{
+        background-color:white;
+
+    }
+    to{
+      background-color: rgb(231, 177, 177);
+    }
+}
+
 a{
     text-decoration: none;
 }

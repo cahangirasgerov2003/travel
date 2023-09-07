@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./navbar.css";
 import React from "react";
 
@@ -8,27 +8,24 @@ const Navbar = () => {
       <nav className="navContainer ">
         <div className="d-flex justify-content-between align-items-center">
           <div className="brandContext">
-            <Link to="">trxvl.</Link>
+            <Link to="/">trxvl.</Link>
           </div>
-
           <div className="navList">
             <ul className="d-flex">
               <li>
-                <Link to="" className="homeLink">
-                  Home
-                </Link>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <Link to="">Stays</Link>
+                <NavLink to="/stars">Stays</NavLink>
               </li>
               <li>
-                <Link to="">Fights</Link>
+                <NavLink to="/fights">Fights</NavLink>
               </li>
               <li>
-                <Link to="">Packages</Link>
+                <NavLink to="/packages">Packages</NavLink>
               </li>
               <li>
-                <Link to="">Sign Up</Link>
+                <NavLink to="/signUp">Sign Up</NavLink>
               </li>
             </ul>
           </div>

@@ -32,3 +32,9 @@
   font: 700 16px "Roboto", sans-serif;
   color: #1b4e7a;
 }
+
+.searchBarContext button:hover {
+  color: #030f29;
+  transform: scale(0.98, 0.98);
+  transition: all 1s;
+}

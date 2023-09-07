@@ -40,3 +40,17 @@
 .sosialMedia img:not(:last-child) {
   margin-right: 18px;
 }
+
+.listsInfo li:hover {
+  transform: scale(0.98, 0.98);
+  transition: all 1s;
+}
+
+.sosialMedia img:hover {
+  box-shadow: 0.8px 0.8px 5px red, -0.8px -0.8px 5px red;
+}
+
+.helmetkod:hover {
+  background-color: #940d0d;
+  transition: all 1s;
+}
