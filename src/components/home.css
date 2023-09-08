@@ -11,3 +11,13 @@
 .footerContainer {
   max-width: 1366px;
 }
+
+@media only screen and (max-width: 1199px) {
+  .mainContainer {
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+  .componentHome {
+    margin-top: 60px !important;
+  }
+}

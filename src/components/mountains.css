@@ -11,3 +11,12 @@
 .mountainFooterContainer {
   max-width: 1366px;
 }
+@media only screen and (max-width: 1199px) {
+  .componentMountain {
+    margin-bottom: 40px !important;
+  }
+  .mountainMainContainer {
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+}

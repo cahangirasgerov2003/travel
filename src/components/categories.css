@@ -14,8 +14,8 @@
   align-items: center;
 }
 
-.categoriesList li {
-  margin: 10px;
+.categoriesList {
+  justify-content: space-between;
 }
 
 .categoriesList li a {
@@ -41,4 +41,19 @@
 
 .categoriesList li a.active p {
   color: white;
+}
+
+@media only screen and (max-width: 1199px) {
+  .categoriesList {
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .categoriesList {
+    justify-content: initial;
+  }
+  .categoriesList li {
+    margin: 10px 20px 10px 0;
+  }
 }

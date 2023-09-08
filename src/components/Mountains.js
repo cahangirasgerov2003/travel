@@ -17,7 +17,10 @@ const Mountains = () => {
       <div className="mountainMainContainer">
         <TitlePage />
         <SearchBar />
-        <div style={{ marginTop: 40 + "px", marginBottom: 80 + "px" }}>
+        <div
+          className="componentMountain"
+          style={{ marginTop: 40 + "px", marginBottom: 80 + "px" }}
+        >
           <Categories />
         </div>
         <PapularBeach />

@@ -8,8 +8,14 @@
   margin-top: 40px;
   width: 55%;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1199px) {
   .titleContainer {
     width: 90%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .titleMessage {
+    font-size: 50px;
   }
 }

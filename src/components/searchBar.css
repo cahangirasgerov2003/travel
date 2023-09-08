@@ -38,3 +38,53 @@
   transform: scale(0.98, 0.98);
   transition: all 1s;
 }
+
+@media only screen and (max-width: 1199px) {
+  .searchBarContainer {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .searchBarContext {
+    flex-direction: column;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .searchBarElement {
+    background-color: #ffffff66;
+    padding: 16px 0;
+    border-radius: 32px;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .searchBarElement p,
+  .searchBarElement input,
+  .searchBarElement input::placeholder {
+    font-size: 20px;
+  }
+
+  .searchBarContext button {
+    padding: 16px 45px;
+    font-size: 20px;
+    color: white;
+    background-color: #1b4e7a;
+  }
+
+  .searchBarContext button:hover {
+    background-color: #030f29;
+    color: white;
+  }
+
+  .searchBarElementIn,
+  .searchBarElementOut {
+    display: none !important;
+  }
+
+  .mobileSearchBarCheck {
+    display: flex !important;
+    align-items: center;
+  }
+}

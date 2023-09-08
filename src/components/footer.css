@@ -54,3 +54,14 @@
   background-color: #940d0d;
   transition: all 1s;
 }
+@media only screen and (max-width: 991px) {
+  .trxRow {
+    padding: 20px 50px;
+  }
+  .sosialMedia {
+    padding-top: 15px;
+  }
+  .sosialMedia img {
+    margin-top: 10px;
+  }
+}

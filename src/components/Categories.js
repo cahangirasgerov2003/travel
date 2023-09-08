@@ -7,7 +7,7 @@ const Categories = () => {
     <div className="categoriesContainer">
       <p className="categoriesTitle">Top categories</p>
       <div>
-        <ul className="d-flex  flex-wrap align-items-center categoriesList">
+        <ul className="d-flex flex-wrap align-items-center categoriesList">
           <li>
             <NavLink to="/beaches">
               <img
