@@ -15,3 +15,14 @@
 .vacationCard img {
   padding-left: 0;
 }
+
+.vocationContextImages {
+  border-radius: 16px;
+  padding-right: 0;
+  gap: 24px;
+  cursor: pointer;
+}
+
+.halfColumnCommunity {
+  margin-top: 12px;
+}

@@ -10,9 +10,13 @@ const TravelExpert = () => {
         style={{
           background: "#00000059",
           borderRadius: 10 + "px",
+          width: 100 + "%",
         }}
       ></img>
-      <div style={{ position: "absolute", top: 80 + "px", left: 80 + "px" }}>
+      <div
+        className="expertInfo"
+        style={{ position: "absolute", top: 80 + "px", left: 80 + "px" }}
+      >
         <p className="descPlan1 mb-3">
           Plan your trip with travel{" "}
           <span className="d-block descPlan1">expert</span>

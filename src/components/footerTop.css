@@ -92,3 +92,35 @@
 .gPlayAppStore img {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 991px) {
+  .footerTopBg {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .gPlayAppStore {
+    display: flex;
+    align-items: center;
+  }
+
+  .gPlayAppStore img:first-child {
+    margin-bottom: 0 !important;
+    margin-right: 20px;
+  }
+
+  .footerTopBg {
+    background-size: cover;
+  }
+
+  .photoContext {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 40px;
+  }
+
+  .connectionContext {
+    margin-right: 40px;
+  }
+}

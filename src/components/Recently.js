@@ -9,7 +9,7 @@ const Recently = () => {
       <p className="recentlyTitle">Recently Viewed</p>
       <div className="container recentlyContainer">
         <div className="row">
-          <div className="col-3 halfColumnRecently">
+          <div className="col-lg-3 col-md-6 col-12 halfColumnRecently">
             <div className="columnContextRecently d-flex flex-column">
               <div style={{ position: "relative" }}>
                 <img
@@ -36,7 +36,7 @@ const Recently = () => {
               </div>
             </div>
           </div>
-          <div className="col-3 halfColumnRecently">
+          <div className="col-lg-3 col-md-6 col-12 halfColumnRecently">
             <div className="columnContextRecently d-flex flex-column">
               <div style={{ position: "relative" }}>
                 <img
@@ -64,7 +64,7 @@ const Recently = () => {
             </div>
           </div>
 
-          <div className="col-3 summerBonanzaContainer">
+          <div className="col-lg-3 col-md-6 col-12 summerBonanzaContainer">
             <div className="summerBonanza d-flex flex-column">
               <h1>Summer Bonanza!</h1>
               <div>

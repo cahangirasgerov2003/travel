@@ -12,7 +12,7 @@ const honeyMoon = () => {
       </p>
       <div className="container papularContainer">
         <div className="row">
-          <div className="col-3 halfColumnPapular">
+          <div className="col-lg-3 col-md-6 col-12 halfColumnPapular">
             <div className="columnContextPapular d-flex flex-column">
               <div style={{ position: "relative" }}>
                 <img
@@ -39,7 +39,7 @@ const honeyMoon = () => {
               </div>
             </div>
           </div>
-          <div className="col-3 halfColumnPapular">
+          <div className="col-lg-3 col-md-6 col-12 halfColumnPapular">
             <div className="columnContextPapular d-flex flex-column">
               <div style={{ position: "relative" }}>
                 <img
@@ -66,7 +66,7 @@ const honeyMoon = () => {
               </div>
             </div>
           </div>
-          <div className="col-3 halfColumnPapular">
+          <div className="col-lg-3 col-md-6 col-12 halfColumnPapular">
             <div className="columnContextPapular d-flex flex-column">
               <div style={{ position: "relative" }}>
                 <img
@@ -96,7 +96,7 @@ const honeyMoon = () => {
               </div>
             </div>
           </div>
-          <div className="col-3 halfColumnPapular">
+          <div className="col-lg-3 col-md-6 col-12 halfColumnPapular">
             <div className="columnContextPapular d-flex flex-column">
               <div style={{ position: "relative" }}>
                 <img

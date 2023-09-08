@@ -6,5 +6,10 @@
 }
 .titleContainer {
   margin-top: 40px;
-  width: 759px;
+  width: 55%;
+}
+@media only screen and (max-width: 991px) {
+  .titleContainer {
+    width: 90%;
+  }
 }

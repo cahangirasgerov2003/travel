@@ -21,7 +21,7 @@ const FooterTop = () => {
               exclusive deals, and 30% more Trip Coins only on the app!
             </h3>
           </div>
-          <div className="col-8">
+          <div className="col-xl-8 col-lg-12">
             <div className="buttonMoEm">
               <button
                 type="button"
@@ -64,20 +64,22 @@ const FooterTop = () => {
               </div>
             </div>
           </div>
-          <div className="col-1 orContext text-center">
+          <div className="col-xl-1 col-lg-2 orContext text-center">
             <p className="my-3">|</p>
             <h4 className="mb-3">or</h4>
             <p>|</p>
           </div>
-          <div className="col-3 gPlayAppStore">
+          <div className="col-xl-3 col-lg-10 gPlayAppStore">
             <img
               alt="Google Play"
               src={process.env.PUBLIC_URL + "./images/googlePlay.svg"}
               className="mb-4"
+              style={{ width: 202.82 + "px", height: 60.85 + "px" }}
             ></img>
             <img
               alt="App Store"
               src={process.env.PUBLIC_URL + "./images/appStore.svg"}
+              style={{ width: 202.82 + "px", height: 60.85 + "px" }}
             ></img>
           </div>
         </div>

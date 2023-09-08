@@ -9,7 +9,7 @@ const community = () => {
       </p>
       <div className="container communityContainer">
         <div className="row">
-          <div className="col-3 halfColumnCommunity">
+          <div className="col-lg-3 col-md-4 col-6 halfColumnCommunity">
             <div className="columnContextCommunity d-flex flex-column">
               <img
                 alt="Domestic"
@@ -22,7 +22,7 @@ const community = () => {
               </div>
             </div>
           </div>
-          <div className="col-3 halfColumnCommunity">
+          <div className="col-lg-3 col-md-4 col-6 halfColumnCommunity">
             <div className="columnContextCommunity d-flex flex-column">
               <img
                 alt="International"
@@ -35,7 +35,7 @@ const community = () => {
               </div>
             </div>
           </div>
-          <div className="col-3 halfColumnCommunity">
+          <div className="col-lg-3 col-md-4 col-6 halfColumnCommunity">
             <div className="columnContextCommunity d-flex flex-column">
               <img
                 alt="Domestic"
@@ -48,7 +48,7 @@ const community = () => {
               </div>
             </div>
           </div>
-          <div className="col-3 halfColumnCommunity">
+          <div className="col-lg-3 col-md-4 col-6 halfColumnCommunity">
             <div className="columnContextCommunity d-flex flex-column">
               <img
                 alt="International"

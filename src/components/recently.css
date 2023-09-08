@@ -54,3 +54,10 @@
   line-height: 20.43px;
   color: white;
 }
+
+@media only screen and (max-width: 991px) {
+  .summerBonanza {
+    height: 566px;
+    margin-top: 20px;
+  }
+}
