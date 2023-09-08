@@ -20,3 +20,13 @@
     padding-right: 47px;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .mountainMainContainer {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+  .componentMountain {
+    margin-top: 24px !important;
+  }
+}

@@ -1,0 +1,14 @@
+.endNavContext {
+  margin-bottom: 24px;
+}
+.endNavList {
+  padding: 0 27px;
+}
+.endNavList ul li p {
+  margin-bottom: 0;
+  margin-top: 6px;
+}
+.endNavContext a.active p {
+  color: brown;
+  border-bottom: 2px solid brown;
+}

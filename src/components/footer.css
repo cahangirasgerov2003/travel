@@ -74,4 +74,8 @@
     padding-right: 50px;
     padding-top: 0;
   }
+
+  .endNavContainer {
+    display: block !important;
+  }
 }
