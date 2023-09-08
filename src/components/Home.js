@@ -13,7 +13,7 @@ import Footer from "./Footer";
 
 const Home = () => {
   return (
-    <div className="homeComponent">
+    <div className="homeComponent" style={{ position: "relative" }}>
       <Navbar />
       <div className="mainContainer">
         <TitlePage />

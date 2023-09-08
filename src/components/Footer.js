@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <div className="container trxContainer">
       <div className="row trxRow">
-        <div className="col-2">
+        <div className="col-12 col-md-2">
           <p className="brandName">Trxvl.</p>
         </div>
-        <div className="col-10">
+        <div className="col-md-10 col-12">
           <div className="row">
             <div className="col-3">
               <ul className="listsInfo">

@@ -21,3 +21,13 @@
     margin-top: 60px !important;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .mainContainer {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+  .componentHome {
+    margin-top: 24px !important;
+  }
+}

@@ -65,3 +65,13 @@
     margin-top: 10px;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .trxRow {
+    padding: 20px 20px;
+  }
+  .sosialMedia {
+    padding-right: 50px;
+    padding-top: 0;
+  }
+}

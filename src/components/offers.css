@@ -53,3 +53,9 @@
     flex-direction: column;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .offersButton {
+    width: 100%;
+  }
+}

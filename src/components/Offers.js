@@ -7,7 +7,7 @@ const Offers = () => {
       <p className="offersTitle">Offers</p>
       <div className="container offersContainer">
         <div className="row">
-          <div className="col-6 halfColumn">
+          <div className="col-md-6 col-12 halfColumn">
             <div className="columnContext d-flex">
               <img
                 alt="Domestic"
@@ -23,7 +23,7 @@ const Offers = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 halfColumn">
+          <div className="col-md-6 col-12 halfColumn">
             <div className="columnContext d-flex">
               <img
                 alt="International"

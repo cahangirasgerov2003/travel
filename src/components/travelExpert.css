@@ -23,3 +23,32 @@
     font: 400 24px "Lato", sans-serif;
   }
 }
+
+@media only screen and (max-width: 991px) {
+  .expertInfo {
+    top: 20px !important;
+    left: 20px !important;
+  }
+  .descPlan1 {
+    font: 700 36px "Roboto", sans-serif;
+  }
+  .descPlan2 {
+    font: 400 24px "Lato", sans-serif;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .expertInfo {
+    top: 10px !important;
+    left: 10px !important;
+  }
+  .descPlan1 {
+    font: 700 20px "Roboto", sans-serif;
+    line-height: 20px;
+    margin-bottom: 6px !important;
+  }
+  .descPlan2 {
+    font: 400 16px "Lato", sans-serif;
+    line-height: 20px;
+  }
+}

@@ -6,7 +6,17 @@ const Navbar = () => {
   return (
     <div className="navBarContainer">
       <nav className="navContainer ">
-        <div className="d-flex justify-content-between align-items-center">
+        <div className="d-none mobileNav">
+          <p className="mb-0 text-white">9:41</p>
+          <div className="d-flex">
+            <img
+              alt="Wi-fi"
+              src={process.env.PUBLIC_URL + "./images/mobileNavImage.svg"}
+              style={{ width: 67 + "px", height: 11.5 + "px" }}
+            ></img>
+          </div>
+        </div>
+        <div className="d-flex justify-content-between align-items-center navBarMenu">
           <div className="brandContext">
             <Link to="/">trxvl.</Link>
           </div>
