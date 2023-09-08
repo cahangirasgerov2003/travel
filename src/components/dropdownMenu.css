@@ -1,0 +1,31 @@
+.absoluteDropdown {
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 100%;
+}
+.dropDownList li {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.dropDownList li a,
+.closeButton {
+  font: 400 16px "Roboto", sans-serif;
+  color: white;
+}
+
+.dropDownList li a {
+  padding-bottom: 5px;
+}
+
+.dropDownList li a.active {
+  border-bottom: 1px solid white;
+}
+
+.dropDownList li a:hover {
+  border-bottom: 1px solid white;
+}
+
+.closeButton {
+  font-size: 20px;
+  margin-top: 36px;
+  margin-right: 20px;
+}

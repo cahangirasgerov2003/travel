@@ -89,7 +89,7 @@ const Categories = () => {
               <p>Skiing</p>
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to="/tropical">
               <img
                 alt="Tropical"
@@ -97,7 +97,7 @@ const Categories = () => {
               ></img>
               <p>Tropical</p>
             </NavLink>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

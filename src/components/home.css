@@ -30,4 +30,8 @@
   .componentHome {
     margin-top: 24px !important;
   }
+  .hamburgerContainer {
+    display: block !important;
+    margin-bottom: 24px;
+  }
 }

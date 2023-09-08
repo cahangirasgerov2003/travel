@@ -10,12 +10,16 @@ import TravelExpert from "./TravelExpert";
 import Community from "./Community";
 import FooterTop from "./FooterTop";
 import Footer from "./Footer";
+import MobileNavbar from "./MobileNavbar";
 
 const Home = () => {
   return (
     <div className="homeComponent" style={{ position: "relative" }}>
       <Navbar />
       <div className="mainContainer">
+        <div className="d-none hamburgerContainer">
+          <MobileNavbar />
+        </div>
         <TitlePage />
         <div className="componentHome" style={{ marginTop: 140 + "px" }}>
           <Categories />

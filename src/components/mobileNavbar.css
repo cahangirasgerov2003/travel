@@ -1,0 +1,8 @@
+.hamburgerTitle {
+  font: 700 24px "Roboto", sans-serif;
+  color: white;
+}
+
+.hamburgerPicture img {
+  cursor: pointer;
+}
